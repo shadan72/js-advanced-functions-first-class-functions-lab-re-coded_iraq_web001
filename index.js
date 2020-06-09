@@ -11,6 +11,7 @@ const returnLastTwoDrivers= function(driversArray){
 };
 
 const selectingDrivers=function(){
-  returnFirstTwoDrivers()
+  let newArray=[returnFirstTwoDrivers()]
+  newArray.push(...returnLastTwoDrivers)
   returnLastTwoDrivers()
 }
