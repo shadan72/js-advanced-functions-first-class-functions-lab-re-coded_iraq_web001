@@ -10,4 +10,4 @@ const returnLastTwoDrivers= function(driversArray){
   return newArray;
 };
 
-const 
+const selectingDrivers=
