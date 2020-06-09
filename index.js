@@ -5,4 +5,6 @@ const returnFirstTwoDrivers= function(driversArray){
   return newArray;
 };
 
-const 
+const returnLastTwoDrivers= function(driversArray){
+  const newArray=[driversArray(driversArray.length-2)]
+}
