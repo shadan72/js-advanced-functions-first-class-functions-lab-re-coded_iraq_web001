@@ -10,6 +10,10 @@ const returnLastTwoDrivers= function(driversArray){
   return newArray;
 };
 
-const selectingDrivers=function(returnFirstTwoDrivers,returnLastTwoDrivers){
-  create
+const selectingDrivers=[returnFirstTwoDrivers,returnLastTwoDrivers]
+
+const createFareMultiplier= function(integer){
+  return function(){
+  return fare *= interger
+  }
 }
