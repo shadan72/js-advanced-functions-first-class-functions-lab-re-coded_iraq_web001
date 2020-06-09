@@ -17,3 +17,5 @@ const createFareMultiplier= function(integer){
   return fare * interger
   }
 }
+
+let 
