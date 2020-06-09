@@ -18,4 +18,4 @@ const createFareMultiplier= function(integer){
   }
 }
 
-let 
+let quadruples= console.log(createFareMultiplier(2)(4))
