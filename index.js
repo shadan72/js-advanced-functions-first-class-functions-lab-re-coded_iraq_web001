@@ -10,18 +10,18 @@ const returnLastTwoDrivers= function(driversArray){
   return newArray;
 };
 
-const selectingDrivers=[returnFirstTwoDrivers,returnLastTwoDrivers]
+const selectingDrivers=[returnFirstTwoDrivers,returnLastTwoDrivers];
 
 const createFareMultiplier= function(integer){
   return function(fare){
-  return fare * interger
-  }
-}
+  return fare * interger;
+  };
+};
 
-const fareDoubler = createFareMultiplier(2)
-const fareTripler=createFareMultiplier(3)
+const fareDoubler = createFareMultiplier(2);
+const fareTripler=createFareMultiplier(3);
 const selectDifferentDrivers= function(driversArray, eitherFunc){
-  return eitherFunc(driversArray)
+  return eitherFunc(driversArray);
   
-}
+};
 
